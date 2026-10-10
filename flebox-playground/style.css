@@ -127,4 +127,24 @@ h1 {
  row-reverse -> itens em linha, invertidos (6,5,4,3,2,1)
  column -> itens em coluna, de cima pra baixo
  column-reverse -> itens em coluna, invertidos */
+
+ flex-wrap: nowrap;
+
+ justify-content: flex-start;
+
+ align-items: stretch;
+
+ gap: 16px;
+}
+
+.box2 {
+    order: -1;
+}
+
+.box4 {
+    flex-grow: 1;
+}
+
+.box6{
+    align-self:flex-start;
 }
